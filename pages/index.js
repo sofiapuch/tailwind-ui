@@ -1,18 +1,18 @@
 import Head from 'next/head'
 
-import ProductCard from '../components/molecules/cards/productCard'
+import ProductList from '../components/organisms/productList/productList'
 
 export default function Home() {
   return (
-    <div className="container">
+    <>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main>
-        <ProductCard />
+        <ProductList />
       </main>     
-    </div>
+    </>
   )
 }
