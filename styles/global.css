@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Variables */
+:root {
+  --off-white: #e5e5e5;
+}
+
+
+/* Global Overrides */
+body {
+  background: var(--off-white);
+}
